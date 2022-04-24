@@ -143,7 +143,7 @@ const generateReadme = (answers) => {
 ## Description ##
 ---------------
     
-${answers.projectDescription}
+  ${answers.projectDescription}
 
 
 ### Table of Contents
@@ -159,30 +159,30 @@ ${answers.projectDescription}
 ## Installation ##
 ---------------
     
-${answers.installation}
+  ${answers.installation}
   
 
 ## Usage ##
 ---------------
 
     
-${answers.usedFor}
+  ${answers.usedFor}
 
 
-
+---
 ### License: ${answers.yourLicense}
-
+---
   
 
 ## Contributing ##
 ---------------
   
-${answers.contributers}
+  ${answers.contributers}
 
 
-
+---
 ### Tests: ${answers.test} 
-
+---
   
 
 ## Questions ##
