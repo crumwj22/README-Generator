@@ -141,12 +141,12 @@ const generateReadme = (answers) => {
   
 
 ## Description ##
----------------
     
   ${answers.projectDescription}
 
 
-### Table of Contents
+
+  ### Table of Contents
 ---------------
 * [Installation](#installation)
 * [Usage](#usage)
@@ -157,27 +157,27 @@ const generateReadme = (answers) => {
   
 
 ## Installation ##
----------------
     
   ${answers.installation}
   
 
-## Usage ##
----------------
 
+  ## Usage ##
     
   ${answers.usedFor}
 
 
----
+
+  ---
 ### License: ${answers.yourLicense}
 ---
   
 
+
 ## Contributing ##
----------------
   
   ${answers.contributers}
+
 
 
 ---
@@ -185,9 +185,9 @@ const generateReadme = (answers) => {
 ---
   
 
+
 ## Questions ##
----------------
-  
+
 If you have additional questions about this project please contact me directly at <${answers.email}>. 
 You can view more of my projects at <https://github.com/${answers.userName}>.
 `;
