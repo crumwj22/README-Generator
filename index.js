@@ -139,11 +139,15 @@ const generateReadme = (answers) => {
   let result = `
 # ${answers.projectTitle}
   
-## Description: 
+
+## Description ##
+---------------
     
 ${answers.projectDescription}
 
-## Table of Contents
+
+### Table of Contents
+---------------
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
@@ -151,33 +155,41 @@ ${answers.projectDescription}
 * [Tests](#tests)
 * [Questions](#questions)
   
-## Installation:
+
+## Installation ##
+---------------
     
 ${answers.installation}
   
-## Usage:
+
+## Usage ##
+---------------
+
     
 ${answers.usedFor}
 
-## License:
+
+
+### License: ${answers.yourLicense}
+
   
-${answers.yourLicense}
-  
-## Contributing:
+
+## Contributing ##
+---------------
   
 ${answers.contributers}
 
-## Tests:
-  
-${answers.test} 
-  
-## Questions: 
-  
-<https://github.com/${answers.userName}>
 
->If you have additional questions about the project please email me at:
+
+### Tests: ${answers.test} 
+
   
-<${answers.email}>
+
+## Questions ##
+---------------
+  
+If you have additional questions about this project please contact me directly at <${answers.email}>. 
+You can view more of my projects at <https://github.com/${answers.userName}>.
 `;
   return result;
 };
