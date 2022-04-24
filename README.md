@@ -45,6 +45,7 @@ If you have additional questions about this project please contact me directly a
 You can view more of my projects at <https://github.com/crumwj22>.
 
 <a href="https://github.com/crumwj22/README-Generator">README generator</a>
+
 <a href="https://youtu.be/UNKiSrB7XAc">Link to video</a>
 
-<img src="assets/images/READMEimg.png">
+<img src="images/READMEimg.png">
