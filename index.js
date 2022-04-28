@@ -83,7 +83,7 @@ inquirer
       type: "list",
       message: "Choose the appropriate license for this project:",
       name: "yourLicense",
-      choices: ["MIT", "GPLv3", "GPL"],
+      choices: ["MIT", "GPLv3", "GPL", "None"],
     },
     {
       type: "input",
@@ -121,22 +121,17 @@ inquirer
   });
 
 // license badges
-// const renderLicenseBadge = (license) => {
-//   let licenseType = answers.license;
-//   let yourLicense = ''
-//   if(licenseType === 'MIT') {
-//     yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
-//   } else if (licenseType === 'GPLv3') {
-//     yourLicense = `![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)`
-//   } else if (licenseType === 'GPL') {
-//     yourLicense = `![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)`
-//   }
-//   return yourLicense;
-// };
+const renderLicenseBadge = (license) => {
+  if (license !== "None") {
+    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  }
+
+  return "";
+};
 
 // Write new README.md to dist directory
 const generateReadme = (answers) => {
-  let result = `
+  let result = `${renderLicenseBadge(answers.yourLicense)}
 # ${answers.projectTitle}
   
 
@@ -188,7 +183,9 @@ const generateReadme = (answers) => {
 
 ## Questions ##
 
-If you have additional questions about this project please contact me directly at <${answers.email}>. 
+If you have additional questions about this project please contact me directly at <${
+    answers.email
+  }>. 
 You can view more of my projects at <https://github.com/${answers.userName}>.
 `;
   return result;
