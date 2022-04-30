@@ -1,8 +1,10 @@
+![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 # Professional README Generator
 
 ## Description
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project. You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
 ### Table of Contents
 
@@ -44,8 +46,6 @@ Please read the installation section. For the repository owner, contribution gui
 If you have additional questions about this project please contact me directly at <crumwj22@hotmail.com>.
 You can view more of my projects at <https://github.com/crumwj22>.
 
-<a href="https://github.com/crumwj22/README-Generator">README generator</a>
+<a href=https://www.youtube.com/watch?v=UNKiSrB7XAc>Link to README test video
 
-<a href="https://youtu.be/UNKiSrB7XAc">Link to video</a>
-
-<img src="images/READMEimg.png">
+<img src="./images/readmepic.png.png" alt=""/>
