@@ -48,4 +48,4 @@ You can view more of my projects at <https://github.com/crumwj22>.
 
 <a href="https://www.youtube.com/watch?v=UNKiSrB7XAc">Link to README test video</a>
 
-<img src="./images/readmepic.png.png"/>
+<img src="./images/readmepic.png"/>
